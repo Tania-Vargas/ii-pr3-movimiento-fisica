@@ -7,7 +7,7 @@ Se han creado un plano, una esfera y un cubo en las posiciones especificadas, si
   
 - **Situación 2**: Tanto la esfera como el cubo tienen ahora Rigidbody, mientras que el plano sigue solo con su collider. Al ejecutar, el cubo se comporta igual que antes, pero la esfera, al estar más elevada, cae debido a la gravedad. Primero colisiona con el cubo (ambos tienen colliders), luego continúa rodando por el plano hasta que llega al borde, donde finalmente cae al vacío.
   
-    ![situacion2](./gif/ii-pr3-sit2.png)
+    ![situacion2](./gif/ii-pr3-sit2.gif)
   
 - **Situación 3**: La diferencia aquí es que la esfera se ha configurado como cinemática al marcar la opción "Is Kinematic" en su Rigidbody, lo que impide que sea afectada por las físicas. En la ejecución, la esfera se mantiene estática, similar a la situación 1, pero en este caso es porque, al ser cinemática, no es movida por el motor de físicas.
   
@@ -44,7 +44,7 @@ Se han creado un plano, una esfera y un cubo en las posiciones especificadas, si
 
 - **Ejercicio 2**: Para este ejercicio, hay que ir a '*Edit >> Project Settings… >> Input Manager*'. Una vez en la ventana, se aumenta el tamaño del *size* (para crear un nuevo eje) y se crea uno similar al anterior. Como se ve en la imagen, solo se ha modificado el nombre a 'Disparar' y el 'Positive button' se le asigna la tecla 'h'.
 
-![Ejercicio 2](./gif/ii-pr3-ej2.gif)
+![Ejercicio 2](./gif/ii-pr3-ej2.png)
 
 - **Ejercicio 3**: En este ejercicio, se crea un vector y una velocidad modificables en el inspector (la segunda con velocidad 10 por defecto). Tal como se indica, inicialmente la posición 'y' del cubo vale 0. Se emplea la función *Translate* para hacer el movimiento. Al no indicar un sistema de coordenadas en *Translate*, las operaciones se realizan en función de las coordenadas locales (las del cubo).
 
