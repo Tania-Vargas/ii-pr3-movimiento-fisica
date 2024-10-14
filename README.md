@@ -7,7 +7,7 @@ Se han creado un plano, una esfera y un cubo en las posiciones especificadas, si
   
 - **Situación 2**: Tanto la esfera como el cubo tienen ahora Rigidbody, mientras que el plano sigue solo con su collider. Al ejecutar, el cubo se comporta igual que antes, pero la esfera, al estar más elevada, cae debido a la gravedad. Primero colisiona con el cubo (ambos tienen colliders), luego continúa rodando por el plano hasta que llega al borde, donde finalmente cae al vacío.
   
-    ![situacion2](./gif/ii-pr3-sit2.gif)
+    ![situacion2](./gif/ii-pr3-sit2.png)
   
 - **Situación 3**: La diferencia aquí es que la esfera se ha configurado como cinemática al marcar la opción "Is Kinematic" en su Rigidbody, lo que impide que sea afectada por las físicas. En la ejecución, la esfera se mantiene estática, similar a la situación 1, pero en este caso es porque, al ser cinemática, no es movida por el motor de físicas.
   
@@ -86,7 +86,10 @@ Se han creado un plano, una esfera y un cubo en las posiciones especificadas, si
 
   ![Ejercicio 7](./gif/ii-pr3-ej7.gif)
 
-- **Ejercicio 8**:
+- **Ejercicio 8**: En este caso, solo se ha creado un script para el cubo. El movimiento en horizontal (flechas izquierda y derecha) se utiliza para rotar el cubo en la dirección indicada, y con `Translate` se asegura que el cubo siempre avance en la dirección hacia adelante, siguiendo su orientación.
+
+  ![Ejercicio 8](./gif/ii-pr3-ej8.gif)
+
 - **Ejercicio 9**:
 - **Ejercicio 10**:
 - **Ejercicio 11**:
