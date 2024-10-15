@@ -117,7 +117,7 @@ Este ejercicio introduce un cilindro con un `Rigidbody`, controlado por teclas. 
      ![Ejercicio 12c](./gif/ii-pr3-ej12_c.gif)
 
   4. **Trigger**: La esfera atraviesa el plano al ser un trigger.
-     ![Ejercicio 12dc](./gif/ii-pr3-ej12_dc.gif)
+     ![Ejercicio 12dc](./gif/ii-pr3-ej12_d.gif)
 
   5. **Fricción**: Al aumentar la fricción del cilindro de 0.5 a 1, se nota que cuesta más moverlo, aunque la diferencia es sutil.
      | **Fricción 0.5** | **Fricción 1** |
